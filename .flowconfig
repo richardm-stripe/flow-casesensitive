@@ -1,0 +1,16 @@
+[version]
+0.117.0
+
+[ignore]
+<PROJECT_ROOT>/dist/.*
+
+[include]
+
+[libs]
+
+[lints]
+
+[options]
+include_warnings=true
+
+[strict]
