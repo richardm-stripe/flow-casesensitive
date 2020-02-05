@@ -1,2 +1,2 @@
 // @flow
-export const Foo = ({}: {| foo: string |}) => {};
+export const Foo = ({}: {| foo: string |}): void => {};
