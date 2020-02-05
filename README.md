@@ -1,23 +1,23 @@
 ## In this repository:
 
 **src/Lib.js**
-```flow
+```javascript
 export function f<+T: { x?: "x" }>(a: T => any, b: $Rest<T, {| x?: "x" |}>) {}
 ```
 
 **src/lib2.js** (identical to src/Lib.js)
-```flow
+```javascript
 export function f<+T: { x?: "x" }>(a: T => any, b: $Rest<T, {| x?: "x" |}>) {}
 ```
 
 **src/foo.js** (defines a function to be passed in as `a` to f)
-```flow
+```javascript
 // @flow
 export const Foo = ({}: {| foo: string |}) => {};
 ```
 
 **src/main.js** (imports both versions of f, and attempts to call both versions with 'Foo' and 'LocallyDefinedFoo')
-```flow
+```javascript
 // @flow
 
 // @flow
