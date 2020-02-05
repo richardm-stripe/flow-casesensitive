@@ -70,6 +70,7 @@ Found 1 error
 
 ```shell
 git clone git@github.com:richardm-stripe/flow-casesensitive
+cd flow-casesensitive
 yarn
 yarn flow check
 ```
