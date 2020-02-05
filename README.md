@@ -69,7 +69,7 @@ Found 1 error
 ## To reproduce
 
 ```shell
-git clone git@github.com/richardm-stripe/flow-caseinsensitive
+git clone git@github.com:richardm-stripe/flow-casesensitive
 yarn
 yarn flow check
 ```
